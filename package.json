@@ -1,6 +1,6 @@
 {
   "name": "gas-underscore",
-  "version": "1.5.2",
+  "version": "1.8.3",
   "author": "Adam Piórowicz <adam@simula.no>",
   "private": true,
   "bin": {
@@ -9,9 +9,9 @@
   "devDependencies": {
     "grunt": "0.4.x",
     "grunt-cli": "0.1.x",
-    "grunt-contrib-concat": "0.3.x",
-    "grunt-contrib-copy": "0.5.x",
-    "grunt-shell": "0.x",
-    "grunt-string-replace": "0.x"
+    "grunt-contrib-concat": "0.5.x",
+    "grunt-contrib-copy": "0.8.x",
+    "grunt-shell": "1.x",
+    "grunt-string-replace": "1.x"
   }
 }

@@ -57,6 +57,12 @@ module.exports = (grunt) ->
           stdout: true
           stderr: true
           failOnError: true
+      recursive_pull:
+        command: 'git pull --recurse-submodules'
+        options:
+          stdout: true
+          stderr: true
+          failOnError: true
 
     'string-replace':
       tests:
@@ -115,6 +121,7 @@ module.exports = (grunt) ->
   grunt.registerTask 'update', [
     'shell:npm_update'
     'shell:pull_underscore'
+    'shell:recursive_pull'
   ]
 
   grunt.registerTask 'default', [

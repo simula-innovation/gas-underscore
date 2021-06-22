@@ -15,7 +15,7 @@ library. This is how you add it to your project:
 
 1. Select "Resources" > "Libraries..." in the Google Apps Script
 editor.
-2. Enter the project key (`M3i7wmUA_5n0NSEaa6NnNqOBao7QLBR4j`) in the
+2. Enter the script id (`1PcEHcGVC1njZd8SfXtmgQk19djwVd2GrrW1gd7U5hNk033tzi6IUvIAV`) in the
 "Find a Library" field, and choose "Select". (If you have copied the
 library, enter instead the project key of your copy.)
 3. Select the highest version number, and choose Underscore as the
